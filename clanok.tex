@@ -1,0 +1,92 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,,a4paper]{article}
+
+\usepackage[slovak]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
+\usepackage{cite}
+%\usepackage{times}
+
+\nocite{*}
+
+\pagestyle{headings}
+
+\title{Použitie odporúčacích algoritmov v zdravotníctve založených na predošlých zdravotných dátach pacienta a iných lokálnych faktorov za účelom individualizácie zdravotnej starostlivosti\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2024/25, vedenie: Ivan Kapustík}} % meno a priezvisko vyučujúceho na cvičeniach
+
+\author{Lukáš Náhlik\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xnahlik@stuba.sk}}
+	}
+
+\date{\small \today}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Použitie odporúčacích algoritmov v zdravotníctve predstavuje významný krok smerom k personalizovanej zdravotnej starostlivosti, ktorý môže zásadne ovplyvniť spôsob, akým sú diagnostikované a liečené ochorenia. Tento článok sa zameriava na implementáciu algoritmov, ktoré využívajú predošlé zdravotné údaje pacienta, ako sú anamnéza, genetické faktory, záznamy o predchádzajúcich liečbach, a iné demografické údaje, v kombinácii s lokálnymi faktormi, ako je geografická dostupnosť zdravotných služieb, sociálno-ekonomické podmienky, a dokonca aj klimatické vplyvy. Cieľom týchto algoritmov je zlepšiť rozhodovanie v procese diagnostiky, liečby a preventívnej starostlivosti tým, že poskytujú lekárom aj pacientom odporúčania šité na mieru individuálnym potrebám.
+
+V článku sa podrobne venujeme analýze, ako môžu tieto algoritmy prispieť k efektívnejšej a presnejšej diagnostike, rýchlejšiemu výberu optimálnej liečby a zlepšeniu preventívnych opatrení. Ďalej skúmame, ako môžu pomôcť riešiť nerovnosti v prístupe k zdravotnej starostlivosti, pričom berieme do úvahy lokálne špecifiká a individuálne potreby pacientov v rôznych regiónoch. Súčasne diskutujeme o výzvach spojených s použitím odporúčacích systémov v zdravotníctve, vrátane otázok ochrany súkromia, bezpečnosti citlivých zdravotných dát, transparentnosti algoritmov a rizík spojených s ich nadmerným používaním.
+
+Záverečná časť článku sa venuje perspektívam využitia odporúčacích algoritmov v klinickej praxi a ich potenciálu zlepšiť kvalitu a efektivitu zdravotnej starostlivosti na globálnej úrovni. 
+\end{abstract}
+\newpage
+
+
+
+\section{Úvod}
+\subsection{Kontext a význam individualizácie zdravotnej starostlivosti}
+zdravotna starostlivost
+\cite{RSH}
+\subsection{Prehľad technológií používaných v zdravotníctve, vrátane odporúčacích algoritmov}
+\subsection{Cieľ článku a hlavné oblasti skúmania}
+\section{Odporúčacie algoritmy v zdravotníctve}
+\subsection{Definícia a typy odporúčacích systémov}
+\subsection{Spôsoby využitia v zdravotníckom kontexte (diagnostika, liečba, prevencia)}
+\subsection{Príklady úspešných implementácií v praxi}
+\section{Zdroje dát pre odporúčacie algoritmy}
+\subsection{Predošlé zdravotné dáta pacienta (anamnéza, genetika, liečby)}
+\subsection{Lokálne faktory (geografická dostupnosť, socio-ekonomické podmienky, prostredie)}
+\subsection{Integrácia rôznych zdrojov dát pre optimalizáciu algoritmov}
+\section{Individualizácia zdravotnej starostlivosti pomocou odporúčacích algoritmov}
+\subsection{Ako algoritmy personalizujú zdravotnú starostlivosť}
+\subsection{Vplyv na diagnostiku a liečbu (personalizované liečebné plány)}
+\subsection{Úloha algoritmov v preventívnej medicíne}
+\section{Výzvy a riziká pri použití odporúčacích algoritmov}
+\subsection{Ochrana súkromia a bezpečnosť zdravotných dát}
+\subsection{Etické otázky a transparentnosť algoritmov}
+\subsection{Možné chyby a riziká nadmerného spoliehania sa na algoritmy}
+\section{Potenciál odporúčacích algoritmov v budúcnosti zdravotnej starostlivosti}
+\subsection{Možnosti ďalšieho vývoja technológie}
+\subsection{Potenciálne vplyvy na efektivitu a kvalitu zdravotnej starostlivosti}
+\subsection{Perspektívy globálnej aplikácie a redukcia nerovností v zdravotníctve}
+\section{Záver}
+\subsection{Zhrnutie hlavných bodov}
+\subsection{Budúce smery výskumu a vývoja v oblasti odporúčacích systémov v zdravotníctve}
+\subsection{Vplyv na prax a pacientov}
+\section{Referencie}
+\subsection{Zoznam použitých vedeckých a technických zdrojov, ktoré podporujú tvrdenia v článku}
+
+
+
+
+
+
+
+
+
+
+% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\bibliography{literatura}
+\bibliographystyle{alpha} % prípadne alpha, abbrv alebo hociktorý iný
+\end{document}
